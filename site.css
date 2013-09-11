@@ -1,0 +1,418 @@
+body {
+	background-image: url(images/pattern1.gif);
+	}
+	
+p {
+	color: #FFF;
+	font:0.9em/1.3em helvetica, arial, sans-seriff;
+	}
+
+#container {
+	background: url(images/background.jpg);
+	margin: 0 auto;
+	width: 760px;
+	border: 1px solid #000;
+	padding: 0px;
+		}
+/*------page titles-------*/
+
+	#news {
+			margin: 0 0 29px 295px;
+			width: 152px;
+			height: 50px;
+			background: url(images/news.gif) no-repeat;
+			}
+
+	#ab{
+			margin: 0 0px 10px 280px;
+			background: url(images/about.gif) no-repeat;
+			border: 0px;
+			height: 69px;
+			}
+
+	#links{
+			margin: 0 0px 9px 293px;
+			background: url(images/links.gif) no-repeat;
+			border: 0px;
+			height: 70px;
+			width:159px;
+			}
+		
+	#contact{
+			margin: 0px 0px 43px 245px;
+			background: url(images/contact.gif) no-repeat;
+			border: 0px;
+			width: 248px;
+			height: 51px;
+			}
+	
+	#gallery{
+			margin: 0 0px 20px 275px;
+			background: url(images/gallery.gif) no-repeat;
+			border: 0px;
+			height: 93px;
+			}
+		
+
+/*------content-----*/
+
+	/*---header---*/
+
+		#header {
+			margin: 5px 2px 2px 8px;
+			width: 745px;
+			height: 125px;
+			background: url(images/header.jpg);				
+				}
+		
+		#headertitle h1 {
+				display: none;
+				}
+		
+	/*----navigation----*/		
+
+		#navbuttons a img {
+					padding: 0 0 1px 0;
+					margin: 0 15px 0 33px;
+					border: 0px;
+					}
+		
+		#navigation  {
+				margin: 0 2px 20px 8px;
+				width:744px;
+				height: 36px;
+				background: url(images/navbar.jpg);
+				}
+		
+
+
+
+/*-----Main content area-----*/
+		#maincontent {	
+			margin: 0 0 25px 0px;
+			background-color: #a8a472;
+			border: 1px solid #000;
+			width: 430px;		
+			padding: 6px;		
+			}
+
+		#main{
+			float: left;
+			margin: 0 0 0 6px;
+			padding: 0;
+			}
+		
+	
+		#servicesgraphic{
+			margin: 0 0px 3px 0px;
+			width: 444px;
+			height: 31px;
+			background: url(images/linkstitle.jpg);
+				}
+
+		#localgraphic {
+			margin: 0 0px 3px 0px;
+			width: 444px;
+			height: 31px;
+			background: url(images/local.jpg);
+				}
+		
+		#historygraphic {
+			clear: right;
+			margin: 0 0px 1px 0px;
+			width: 445px;
+			height: 33px;
+			background: url(images/historytitle.gif);
+				}
+
+			
+		ul {
+			color: #FFF;
+			font:  1em/1.4em helvetica, arial, sans seriff;
+			list-style: square;
+			margin:8px 0 20px 0;
+			}
+				
+			ul a{
+				color: #FFF;
+				text-decoration:none;
+				}
+				
+			ul a:link{
+				color:#FFF;
+				text-decoration:none;
+						}
+		
+			ul a:visited{
+				color:#FFF;
+				text-decoration:none;
+				}
+		
+			ul a:hover{
+			color:#FFF;
+			text-decoration:underline;
+				}
+
+			ul a:active{
+				active:#FFF;
+				text-decoration:none;
+					}		
+					
+			
+		#headlines {
+			color: #FFF;
+			font:  0.9em/1.2em helvetica, arial, sans seriff;
+			margin:0px;
+			list-style: square;
+			}
+				
+			#headlines a{
+				color: #FFF;
+				text-decoration:none;
+				}
+				
+			#headlines a:link{
+				color:#FFF;
+				text-decoration:none;
+						}
+		
+			#headlines a:visited{
+				color:#FFF;
+				text-decoration:none;
+				}
+		
+			#headlines a:hover{
+			color:#FFF;
+			text-decoration:underline;
+				}
+
+			#headlines a:active{
+				active:#FFF;
+				text-decoration:none;
+					}		
+	
+			
+			
+		
+				
+/*------Sidebars--------*/
+h3 {
+	color: #FFF;
+	padding: 0 0 0 0px;
+	float: right;
+	margin: 70px 50px 0 0;
+	}
+	
+	
+#sponsorsgraphic{
+	margin: 0 0px 1px 0px;
+	width: 285px;
+	height:33px;
+	background: url(images/sponsors.gif);
+		}
+
+#headlines {
+	color: #FFF;
+	font:0.9em/1.6em helvetica, arial, sans-seriff;
+             }
+
+			#sidebar3 {
+				float: right;	
+				margin: 79px 6px 0px 0px;
+				padding:0px;
+				}
+				
+		
+			#sidebar2 {
+				float: right;	
+				margin: 0px 6px 0px 0px;			
+				}	
+			
+			#sidebar1 {
+				float: right;	
+				margin: 79px 6px 0px 0px;			
+				}	
+				
+
+				#worldgraphic {
+					margin: 0 0px 3px 0;
+					width: 285px;
+					height: 31px;
+					background: url(images/world.jpg);
+					} 
+		
+				#world {
+				margin: 0 0px 10px 0px;
+				background-color: #a8a472;
+				border: 1px solid #000;
+				width: 270px;
+				padding: 6px 12px 6px 0px;
+				}
+				
+				#ad {
+				margin: 0 0px 10px 0px;
+				background-color: #a8a472;
+				border: 1px solid #000;
+				width: 270px;
+				height: 200px;
+				padding: 6px 12px 6px 0px;
+				}
+				
+				#logo {
+					border: 5px solid #000;
+					margin: 5px 0 0 40px;
+					background-color: #FFF;
+					padding: 3px;
+					
+					}
+		
+
+				#weather {
+					width:270px;
+					border:1px solid #000;
+					padding: 6px;
+					background-color: #a8a472;		
+					margin:0 0 30px 0;
+					}
+	
+
+/*-------Gallery----------*/
+
+		#gallerycontainer {
+			background-color: #a8a472;
+			border: 1px solid #000;
+			margin: 0 8px 0 8px;
+			padding: 8px 5px 8px 5px;
+			}
+		
+		#placeholder {
+			border: 3px solid #FFF;
+			width: 400px;
+			height: 300px;
+			padding:2px;
+			background-color: #000
+			}
+			
+		#imagelarge {
+			float: right;
+			margin:0 0 0 0;
+			}
+			
+		#imagesmall  {			
+			margin: -14px 0 0 0;		
+			}
+			
+
+					
+				
+		#field, #woods1, #woods2, #stream1, #stream2, #woodsview {
+				width: 146px;
+				height: 107px;
+				border: 2px solid #FFF;
+				padding: 1px;
+				background-color:#000
+				}
+	
+				
+				
+/*-------form--------*/
+		#contactform{	
+			margin: 0 0 25px 8px;
+			background-color: #a8a472;
+			border: 1px solid #000;
+			width: 734px;		
+			padding: 4px;		
+			}
+
+		#form{
+			color: #FFF;
+			font: .9em helvetica, arial, sans-seriff;
+			margin: 0px;
+			padding: 0px;
+			}
+
+/*--------footer-------*/
+
+		#copyright{
+				font-size: .9em;
+				clear: both;
+				margin:0 0 5px 303px;
+						}
+	
+			
+			
+				
+		#footer  {				
+				clear: both;
+				margin: 0px 0px 3px 237px;
+				
+				}
+		
+			#buttons a{
+				color: #FFF;
+				font:bold 1.1em helvetica, arial, sans seriff;
+				margin: 0px 0px 0px 0px;
+				}
+				
+			#buttons a:link{
+				color:#FFF;
+				text-decoration:none;
+						}
+		
+			#buttons a:visited{
+				color:#FFF;
+				text-decoration:none;
+				}
+		
+			#buttons a:hover{
+			color:#FFF;
+			text-decoration:underline;
+				}
+
+			#buttons a:active{
+				active:#FFF;
+				text-decoration:none;
+					}		
+		
+				
+			#buttons p{
+				padding: 7px 0 0 0;
+				word-spacing: 10px;
+				}
+
+/*----hidden titles----*/		
+		#contacttitle h2{
+			display: none;
+			}
+					
+		#abouttitle{
+			display: none;			
+			}
+			
+		#linkstitle h2{
+			display: none;
+			}
+	
+		#localnewstitle h2 {
+			display: none;
+			}
+		#gallerytitle h2 {
+			display: none;
+				}
+		#worldnewstitle h2 {
+			display: none;
+			}
+
+
+	
+		 
+
+
+
+
+
+
+	
+
+
+	

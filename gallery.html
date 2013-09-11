@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+	<title>BowlingGreen.com Gallery</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" type="text/css" href="site.css" />
+	<script language="Javascript" type="text/javascript">
+function swapImg(img){
+	document.getElementById('placeholder').src='images/' + img; 
+	return false;
+			}
+ </script>
+
+	
+	
+</head>
+<body>
+		<div id="container">
+		
+		<div id="header"></div>
+		
+		<div id="headertitle">
+		<h1>Bowling Green Missouri</h1>
+		</div>
+		
+		
+		
+		<div id="navigation">
+			<div id="navbuttons">
+			
+			<a href="index.html" onmouseover="document.home.src='images/home_rollover.gif'" onmouseout="document.home.src='images/home_btn.gif'"><img src="images/home_btn.gif" name="home"></a>
+			<a href="about.html" onmouseover="document.about.src='images/about_rollover.gif'" onmouseout="document.about.src='images/about_btn.gif'"><img src="images/about_btn.gif" name="about"></a>
+			<a href="gallery.html" onmouseover="document.gallery.src='images/gallery_rollover.gif'" onmouseout="document.gallery.src='images/gallery_btn.gif'"><img src="images/gallery_btn.gif" name="gallery"></a>
+			<a href="links.html" onmouseover="document.links.src='images/links_rollover.gif'" onmouseout="document.links.src='images/links_btn.gif'"><img src="images/links_btn.gif" name="links"></a>
+			<a href="contact.html" onmouseover="document.contact.src='images/contact_rollover.gif'" onmouseout="document.contact.src='images/contact_btn.gif'"><img src="images/contact_btn.gif" name="contact"></a>
+			
+			
+			</div>
+		</div>
+		
+		<div id="gallery"></div>		
+		
+			
+			<div id="gallerytitle"><h2>Gallery</h2></div>
+
+
+
+
+
+				
+		<div id="gallerycontainer">		
+			<div id="imagelarge">
+				<img src="images/field.jpg" id="placeholder" />
+			</div>
+			
+			<div id="imagesmall">
+				<p>				
+				<a href="images/field.jpg" onclick="return swapImg('field.jpg')"><img id="field" src="images/field_sm.jpg" alt="BG Field" title="BG Field at sunrise" /></a>
+				<a href="images/woods1.jpg" onclick="return swapImg('woods1.jpg')"><img id="woods1" src="images/woods1_sm.jpg" alt="Wooded Trail" title="Wooded Trail" /></a>	
+				</p>
+				<p>
+				<a href="images/stream1.jpg" onclick="return swapImg('stream1.jpg')"><img id="stream1" src="images/stream1_sm.jpg" alt="Stream" title="Stream" /></a>
+				<a href="images/stream2.jpg" onclick="return swapImg('stream2.jpg')"><img id="stream2" src="images/stream2_sm.jpg" alt="Stream2" title="Stream2" /></a>
+				</p>
+				<p>
+				<a href="images/woods2.jpg" onclick="return swapImg('woods2.jpg')"><img id="woods2" src="images/woods2_sm.jpg" alt="creek" title="Creek" /></a>
+				<a href="images/woodsview.jpg" onclick="return swapImg('woodsview.jpg')"><img id="woodsview" src="images/woodsview_sm.jpg" alt="Overlook" title="My Backyard" /></a>			
+				</p>
+				
+			</div>
+		</div>
+				
+			
+			
+
+
+
+
+				
+				
+		<div id="footer">
+			<div div id="buttons">
+				<p>
+					<a href="index.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="gallery.html">Gallery</a>
+					<a href="links.html">Links</a>
+					<a href="contact.html">Contact</a>	
+				</p>
+			</div>
+		</div>
+		
+		<div id="copyright">
+				<p>
+					Copyright&copy;2005 Tyler Gaw
+				</p>
+		</div>
+		
+	</div>
+	
+	
+	
+
+</body>
+</html>
